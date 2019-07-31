@@ -1,0 +1,52 @@
+Loading User File 6 of 10
+ln219 runs1
+ln219 runs2
+ln219 runs3
+ln219 runs4
+ln219 runs5
+ln219 runs6
+ln219 runs7
+ln219 runs8
+ln219 runs9
+ln219 runs10
+ln219 runs11
+ln219 runs12
+Formatting the Data Structure
+Extracting and Storing EMG Features from Channels:
+     1     2     3     4     5     6
+
+Training Single-Stage EMG Classifier (Using Data From Single Position)
+Testing Single-Stage EMG Classifier (Using Data From Single Position)
+Training and Testing In Positions P1: 15.812%
+Training and Testing In Positions P2: 8.9744%
+Training and Testing In Positions P3: 34.6154%
+Training and Testing In Positions P4: 58.7983%
+Training and Testing In Positions P5: 50.8475%
+Training and Testing In Positions P6: 17.5214%
+Training and Testing In Positions P7: 35.7447%
+Training and Testing In Positions P8: 53.0172%
+Training and Testing In Positions P9: 0.85837%
+Training and Testing In Positions P10: 17.9487%
+Training and Testing In Positions P11: 5.9574%
+Training and Testing In Positions P12: 7.6596%
+Training and Testing In Positions P13: 51.073%
+Training and Testing In Positions P14: 17.5214%
+Training and Testing In Positions P15: 52.3605%
+Training and Testing In Positions P16: 2.9915%
+ 
+Training and Testing In Same Position Average Err (Inter-Position Err): 26.9813%
+ 
+Training and Testing In Different Positions Average Err (Intra-Position Err): 36.2163%
+ 
+Loading User File 6 of 10
+Formatting the Data Structure
+Extracting and Storing EMG Features from Channels:
+     1     2     3     4     5     6
+
+Training Position classifier using EMG 
+Testing Position classifier using EMG 
+
+PosEMGErr =
+
+   25.8403   24.3129   25.0000   24.2328   19.3038   25.5544
+

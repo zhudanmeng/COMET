@@ -1,0 +1,91 @@
+Loading User File 10 of 10
+ln219 runs1
+ln219 runs2
+ln219 runs3
+ln219 runs4
+ln219 runs5
+ln219 runs6
+ln219 runs7
+ln219 runs8
+ln219 runs9
+ln219 runs10
+ln219 runs11
+ln219 runs12
+Formatting the Data Structure
+Extracting and Storing EMG Features from Channels:
+     1     2     3     4     5     6
+
+Training Single-Stage EMG Classifier (Using Data From Single Position)
+Testing Single-Stage EMG Classifier (Using Data From Single Position)
+Training and Testing In Positions P1: 3.8627%
+Training and Testing In Positions P2: 5.6034%
+Training and Testing In Positions P3: 2.5862%
+Training and Testing In Positions P4: 1.2766%
+Training and Testing In Positions P5: 28.5106%
+Training and Testing In Positions P6: 6.4103%
+Training and Testing In Positions P7: 22.1277%
+Training and Testing In Positions P8: 1.2821%
+Training and Testing In Positions P9: 8.1545%
+Training and Testing In Positions P10: 4.3103%
+Training and Testing In Positions P11: 7.234%
+Training and Testing In Positions P12: 12.2363%
+Training and Testing In Positions P13: 17.9487%
+Training and Testing In Positions P14: 10.3004%
+Training and Testing In Positions P15: 17.9487%
+Training and Testing In Positions P16: 36.7521%
+ 
+Training and Testing In Same Position Average Err (Inter-Position Err): 11.659%
+ 
+Training and Testing In Different Positions Average Err (Intra-Position Err): 19.1935%
+ 
+Extracting and Storing Inertial Features from Channels:
+    12    13    14    24    25    26
+
+Training ACCEL Based Position Classifier using Forearm ACCEL
+Training ACCEL Based Position Classifier using Humerus ACCEL
+Training ACCEL Based Position Classifier using BOTH ACCEL
+Training Regular EMG & Forearm ACCEL Classifier (Using Data From Multiple Positions)
+Testing Regular EMG & Forearm ACCEL Classifier (Using Data From Multiple Positions)
+ 
+Position Non-Specific Classification Error using EMG & Forearm ACCEL:
+Training With Multiple Positions + Forearm ACC, Testing in All Positions minimum ERR (1-16): %
+ 
+Testing Regular EMG & Humerus ACCEL Classifier (Using Data From All Positions)
+ 
+Position Non-Specific Classification Error using EMG & Humerus ACCEL:
+Training With Multiple Positions + Humerus ACC, Testing in All Positions minimum ERR (1-16): %
+Training Regular EMG & Both ACCEL Classifier (Using Data From All Positions)
+Testing Regular EMG & 2 ACCEL Classifier (Using Data From All Positions)
+ 
+Position Non-Specific Classification Error using EMG & Both ACCEL:
+Training With Multiple Positions + Both ACC, Testing in All Positions minimum ERR (1-16): %
+ 
+Loading User File 10 of 10
+Formatting the Data Structure
+Extracting and Storing EMG Features from Channels:
+     1     2     3     4     5     6
+
+Training Position classifier using EMG 
+Testing Position classifier using EMG 
+
+PosEMGErr =
+
+   25.8403   24.3129   25.0000   24.2328   19.3038   25.5544   19.0275   22.7754   28.3741   32.6660
+
+clc
+clearvars
+main
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'Ashkan2_.USER'. No such file or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'G:\Matlab\Data\main.m', 172)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('G:\Matlab\Data\main.m',172,0)">line 172</a>)
+    load('Ashkan2_.USER', '-mat');
+} 
+pwd
+
+ans =
+
+    'G:\Matlab\Data'
+
+opentoline('G:\Matlab\Data\main.m',172,0)
+main
